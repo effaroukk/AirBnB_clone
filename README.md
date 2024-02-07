@@ -42,7 +42,7 @@ All the development and testing was runned over an operating system Ubuntu 20.04
 ## 0x03 Installation
 
 ```bash
-git clone https://github.com/aysuarex/AirBnB_clone.git
+git clone https://github.com/effaroukk/AirBnB_clone.git
 ```
 
 change to the `AirBnb` directory and run the command:
@@ -185,23 +185,3 @@ $
 
 ```bash
 create <class>
-
-```
-
-```bash
-(hbnb) create BaseModel
-6cfb47c4-a434-4da7-ac03-2122624c3762
-(hbnb)
-```
-
-* Show
-
-```bash
-show <class> <id>
-```
-
-```bash
-(hbnb) show BaseModel 6cfb47c4-a434-4da7-ac03-2122624c3762
-[BaseModel] (a) [BaseModel] (6cfb47c4-a434-4da7-ac03-2122624c3762) {'id': '6cfb47c4-a434-4da7-ac03-2122624c3762', 'created_at': datetime.datetime(2021, 11, 14, 3, 28, 45, 571360), 'updated_at': datetime.datetime(2021, 11, 14, 3, 28, 45, 571389)}
-(hbnb)
-```
